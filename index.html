@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recipes App</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text" id="search-term" />
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class="fav-container">
+                <h3>Favorite Meals</h3>
+                <ul class="fav-meals" id="fav-meals">
+                	<!-- <li><img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/0e/9a/41/north-indian-meal.jpg" 
+					alt="">
+					<span>North Indian Meal</span>
+
+				</li>
+				<li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsizTJjHAevHHuXRyNgnogH6zsBB70lOdIdw&usqp=CAU" 
+					alt="">
+					<span>South Indain Meal</span>
+				</li>
+				<li><img src="https://rekhaarora.com/project3/media/westindia.jpg" 
+					alt="">
+					<span>West Indian Meal</span>
+				</li>
+				<li><img src="https://image.shutterstock.com/image-photo/healthy-lunch-workplace-pick-food-260nw-1855267585.jpg" 
+					alt="">
+					<span>East Indian Meal</span>
+				</li> -->
+                </ul>
+            </div>
+            <div class="meals" id="meals">
+         		<!-- <div class="meal">
+
+				<div class="meal-header">
+					<span class="random">Random Recips</span> 
+					<img src="https://image.shutterstock.com/image-photo/healthy-lunch-workplace-pick-food-260nw-1855267585.jpg" alt="" />
+
+				</div>
+				<div class="meal-body">
+					<h4>Veggi Veggoes</h4> 
+					<button class="fav-btn">
+						<i class="fas fa-heart"> </i>
+					</button>
+				</div>
+				
+			</div> -->
+            </div>
+
+        </div>
+
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+                <button id="close-popup" class="close-popup">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="meal-info" id="meal-info"></div>
+            </div>
+        </div>
+    </body>
+</html>
